@@ -57,3 +57,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 })
+
+app.get('/submit', (req, res) => {
+res.send("hello")
+})
