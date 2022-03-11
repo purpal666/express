@@ -58,6 +58,6 @@ function getRandomInt(min, max) {
 }
 })
 
-app.get('/submit', (req, res) => {
+app.get('/', (req, res) => {
 res.send("hello")
 })
